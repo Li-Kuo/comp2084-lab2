@@ -16,7 +16,7 @@ namespace Lab2.Controllers
         public IActionResult Details(string subject)
         {
             ViewBag.str = "You selected category: " + subject;
-            return View();
+            return View();  
         }
     }
 }
